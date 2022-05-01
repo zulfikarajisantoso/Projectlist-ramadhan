@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+.App{
+  width: 100vw;
+}
+
+.cardcontainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 4rem;
+}
+.card{
+  width: 10rem;
+  background-color: aquamarine;
+
+}
+.card img{
+  width: 100%;
+}
+.active{
+  background-color: black;
+  color: aliceblue;
+}

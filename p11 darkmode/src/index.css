@@ -1,0 +1,49 @@
+body {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+:root{
+    --clr-font-judul: rgb(24, 24, 24);
+    --clr-font: white;
+    --clr-bcg: white;
+    --clr-bg-btn: darkgreen;
+}
+
+.light-theme{   
+    --clr-font-judul: rgb(24, 24, 24);
+    --clr-font: white;
+    --clr-bcg: white;
+    --clr-bg-btn: darkgreen;
+
+}
+.dark-theme{
+    --clr-bcg: rgb(24, 24, 24);
+    --clr-bg-btn: rgb(99, 14, 71);
+    --clr-font: rgb(24, 24, 24);
+    --clr-font-judul: white
+}
+
+body{
+    background: var(--clr-bcg)
+}
+
+.nav{
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn{
+    background-color: var(--clr-bg-btn);
+    border: none;
+    width: 10rem;
+    height: 3rem;
+    color: var( --clr-font-judul);
+    font-size: 20px;
+    font-weight: 900;
+    
+}
+h2{
+    color: var(--clr-font-judul);
+}

@@ -1,0 +1,90 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body{
+  background-color: rgb(19, 31, 31);
+}
+
+.nav{
+  background-color: aliceblue;
+  padding: 10px;
+}
+.li{
+  display: block;
+  list-style: none;
+  gap: 10px;
+  font-size: 10px;
+}
+.linstcov{
+  height: 0;
+  overflow: hidden;
+  transition: all 0.3s linear;
+}
+.but{
+  background: transparent;
+  border: transparent;
+  cursor: pointer;
+  
+}
+.na{
+  display: flex;
+  justify-content: space-between;
+}
+.but{
+  transition: all 0.3s linear;
+}
+.but:hover{
+  transform: rotate(90deg);
+}
+
+.list a{
+  font-size: 1rem;
+  text-transform: capitalize;
+  list-style: none;
+  text-decoration: none;
+  display: block;
+  padding: 0.5rem 1rem;
+ transition: all 0.3s linear;
+}
+.list a:hover{
+  padding-left: 1.5rem;
+  background-color: aqua;
+  width: 100%;
+}
+
+@media screen and (min-width: 800px) {
+
+  .linstcov{
+    height: auto !important;
+    }
+    .nav{
+      display: flex;
+  
+      justify-content: space-between;
+      padding: 10px;
+    }
+  .list{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    font-size: 10px;
+  } 
+  .but{
+    display: none;
+  }
+  .list a{
+    padding: 0;
+  }
+  .list a:hover {
+    padding: 0;
+    background: transparent;
+
+  }
+ 
+  
+}

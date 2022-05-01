@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.containerform{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-direction: column;
+}
+.forminput{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  width: 60%;
+}
+.forminput label{
+  margin-top: 2rem;
+}
+.forminput input{
+  width: 40%;
+  height: 2rem;
+
+}
+.options{
+  width: 40%;
+  height: 2rem;
+}
+.container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quiz{
+  display: flex;
+  flex-direction: column;
+}
+
+.modall{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.75);
+  display: flex; 
+  justify-items: center;
+  align-items: center;
+  opacity: 0;
+  transition: all 0.3s linear;
+  z-index: -1;
+
+}
+
+.isopen{
+  z-index: 999;
+  opacity: 1;
+
+}
+.container{
+  width: 100vw;
+  justify-content: center;
+  display: flex;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  background-color: beige;
+  width: 40%;
+  align-items: center;
+  justify-self: center;
+}
